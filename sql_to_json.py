@@ -1,9 +1,9 @@
 import sqlite3
 import json
 
-db_filenem = "/Users/ak6914/Desktop/tuts/Advanced_Python_NYU/python_data_apy/session_02_working_files/session_2.db"
+db_filenem = "../session_2.db"
 
-json_file = "/Users/ak6914/Desktop/tuts/Advanced_Python_NYU/python_data_apy/session_02_working_files/revenue.json"
+json_file = "../revenue.json"
 
 conn = sqlite3.connect(db_filenem)
 
